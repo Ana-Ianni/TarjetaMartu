@@ -1,0 +1,53 @@
+.big{
+    font-size: 5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.med{
+    font-size: 2rem;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.small{
+    font-size: 1rem;
+    font-weight: normal;
+    text-transform: lowercase;
+}
+.class{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+p, h1{
+    color: #ff2679;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #ffe3ee;
+    text-align: center;
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.heart {
+    font-size: 150px;
+    color: #cc0041;
+    animation: beat .25s infinite alternate;
+    transform-origin: center;
+  }
+  
+  @keyframes beat{
+    to { transform: scale(1.4); }
+  }
