@@ -34,11 +34,25 @@ body {
 }
 
 .wrapper{
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+}
+
+.wrapImg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+img{
+    width: 20%;
+    margin-left: 40%;
 }
 
 .heart {
@@ -51,3 +65,10 @@ body {
   @keyframes beat{
     to { transform: scale(1.4); }
   }
+
+  @media (max-width: 900px) { 
+    img{
+        width: 50%;
+        margin-left: 25%;
+    }
+ }
